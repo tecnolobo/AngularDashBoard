@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ProgressComponent } from './progress.component';
+import { DonaComponent } from './dona.component';
 
-describe('ProgressComponent', () => {
-  let component: ProgressComponent;
-  let fixture: ComponentFixture<ProgressComponent>;
+describe('DonaComponent', () => {
+  let component: DonaComponent;
+  let fixture: ComponentFixture<DonaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ProgressComponent ]
+      declarations: [ DonaComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ProgressComponent);
+    fixture = TestBed.createComponent(DonaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
